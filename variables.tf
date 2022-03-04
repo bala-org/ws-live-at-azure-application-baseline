@@ -6,3 +6,4 @@ variable "location"{
     description = "Localtion of rg"
     default = "EastUS"
 }
+
