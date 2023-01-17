@@ -12,7 +12,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "testrg" {
     name = var.rgname
-    location = var.location
+    location = var.region_primary
     
 }
 
