@@ -11,7 +11,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "testrg" {
-    name = var.rg_name
+    name = var.rgname
     location = var.location
     
 }
