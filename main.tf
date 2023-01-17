@@ -18,5 +18,5 @@ resource "azurerm_resource_group" "testrg" {
 
 output "rg-name"{
    description = "value of resource group"
-   value = azurerm_resource_group.testrg
+   value = azurerm_resource_group.testrg.name
  }
