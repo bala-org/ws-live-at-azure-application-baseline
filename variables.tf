@@ -1,9 +1,9 @@
-variable "rg_name"{
+variable "rgname"{
     description = "resourcegroup name"
-    default = "test-rg"
+    #default = "test-rg"
 }
 
-variable "location"{
+variable "region_primary"{
     description = "Localtion of rg"
-    default = "EastUS"
+    #default = "EastUS"
 }
