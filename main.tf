@@ -16,7 +16,7 @@ resource "azurerm_resource_group" "testrg" {
     
 }
 
-output "rg-name"{
+output "rgname"{
    description = "value of resource group"
    value = azurerm_resource_group.testrg.name
  }
