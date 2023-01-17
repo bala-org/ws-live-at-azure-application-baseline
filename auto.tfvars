@@ -1,2 +1,2 @@
-rg_name = "tfe-test-rg"
-location = "CentralUS"
+rgname = "tfe-test-rg"
+region_primary = "CentralUS"
